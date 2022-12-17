@@ -1,0 +1,11 @@
+Deletes the customer "Alfreds Futterkiste" from the "Customers" table?
+
+Delete from customer
+where customername = 'Alfreds Futterkiste';
+
+Deletes all rows in the "Customers" table, without deleting the table?
+
+Delete from customer;
+
+
+
