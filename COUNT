@@ -1,0 +1,11 @@
+Finds the number of products?
+
+Select COUNT(ProductID) as NumberOfProduct
+from Products;
+
+ Finds the average price of all products?
+ 
+ Select AVG(Price) as AvgPrice
+ from Products;
+ 
+ Finds the sum of the "Quantity" fields in the "OrderDetails" table?
