@@ -9,3 +9,8 @@ from Products;
  from Products;
  
  Finds the sum of the "Quantity" fields in the "OrderDetails" table?
+ 
+ Select SUM(Quantity) as TotQuantity
+ from Products;
+ 
+ 
