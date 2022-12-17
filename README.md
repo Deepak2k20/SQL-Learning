@@ -38,7 +38,7 @@ I have taken a sample database table Products which fields are - ProductID, Prod
 I have taken a sample database table OrderDetails which fields are - OrderDetailID, OrderID, ProductID, Quantity \
 I have taken a sample database table Orders which fields are - OrderID, CustomerID, EmployeeID, OrderDate, ShipperID.
 
-SQL JOIN\
+SQL JOIN ?\
 A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
 
 Let's look at a selection from the "Orders" table:
