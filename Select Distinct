@@ -1,0 +1,8 @@
+Select distinct countries from customers?
+
+Select Distinct countries from customers;
+
+Select number of different countries?
+
+Select count(distinct countries) from customers;
+
