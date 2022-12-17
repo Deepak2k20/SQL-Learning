@@ -1,0 +1,35 @@
+Selects all fields from "Customers" where country is "Germany" AND city is "Berlin"?
+
+Select * from customer 
+where country = 'Germany' and city ='Berlin';
+
+Selects all fields from "Customers" where city is "Berlin" OR "München"?
+
+Select * from customer
+where city ='Berlin' or city='München';
+
+Selects all fields from "Customers" where country is "Germany" OR "Spain"?
+
+Select * from customer
+where county ='Germany' OR country ='Spain';
+
+Selects all fields from "Customers" where country is NOT "Germany"?
+
+Select * from customer
+where NOT country ='Germany';
+
+Selects all fields from "Customers" where country is "Germany" AND city must be "Berlin" OR "München" (use parenthesis to form complex expressions)?
+
+Select * from customer
+where country = 'Germany' AND (city ='Berlin' OR city ='München');
+
+Selects all fields from "Customers" where country is NOT "Germany" and NOT "USA"?
+
+Select * from customer
+where country NOT IN('Germany','USA');
+
+
+
+
+
+
