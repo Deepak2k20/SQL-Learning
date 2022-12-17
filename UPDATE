@@ -1,0 +1,14 @@
+Updates the first customer (CustomerID = 1) with a new contact person and a new city?
+
+Update customer
+set contactname = 'Deepak' , city = 'Ghazipur'
+where customerid = 1;
+
+Update the ContactName to "Juan" for all records where country is "Mexico"?
+
+Update customer
+set contactname = 'Juan'
+where country = 'Mexico';
+
+
+
