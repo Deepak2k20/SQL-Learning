@@ -39,7 +39,7 @@ The following operators can be used in the WHERE clause:
 Operators in The WHERE Clause\
 The following operators can be used in the WHERE clause:
 
-Operator	Description	\
+Operator	Description	
 =		      Equal	\
 >		      Greater than	\
 <		      Less than	\
