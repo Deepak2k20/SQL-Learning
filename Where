@@ -1,0 +1,9 @@
+Selects all the customers from the country "Mexico", in the "Customers" table?
+
+Select * from customers
+where country = 'Mexico';
+
+Selects all the customers from customer table where CustomerId=1?
+
+Select * from customer
+where customerid=1;
