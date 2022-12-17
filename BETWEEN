@@ -1,0 +1,31 @@
+Selects all products with a price between 10 and 20?
+
+Select * from Products
+where price BETWEEN 10 AND 20;
+
+Selects all products which price are not in between 10 and 20?
+
+Select * from products
+where price NOT BETWEEN 10 AND 20;
+
+Selects all products with a price between 10 and 20. In addition; do not show products with a CategoryID of 1,2, or 3?
+
+Select * from products
+Where price BETWEEN 10 AND 20
+AND CategoryID NOT IN(1,2,3);
+
+Selects all products with a ProductName between Carnarvon Tigers and Mozzarella di Giovanni?
+
+Select * from products
+where productname BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni';
+
+Selects all products with a ProductName not between Carnarvon Tigers and Mozzarella di Giovanni?
+
+Select * from products
+where productname NOT BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni';
+
+Selects all orders with an OrderDate between '01-July-1996' and '31-July-1996'?
+
+Select * from Orders
+where OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
+
