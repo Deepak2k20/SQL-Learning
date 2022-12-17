@@ -1,0 +1,29 @@
+Selects all customers with a CustomerName starting with "a"?
+
+Select * from customer
+where customername like 'a%';
+
+Selects all customers with a CustomerName that have "or" in any position?
+
+Select * from customer
+where customername like '%or%';
+
+Selects all customers with a CustomerName that have "r" in the second position?
+
+Select * from customer
+where customername like '_r%';
+
+Selects all customers with a CustomerName that starts with "a" and are at least 3 characters in length?
+
+Select * from customer
+where customername like 'a__%';
+
+Selects all customers with a ContactName that starts with "a" and ends with "o"?
+
+Select * from customer
+where contactname like 'a%o';
+
+Selects all customers with a CustomerName that does NOT start with "a"?
+
+Select * from customer
+where customername not like 'a%';
