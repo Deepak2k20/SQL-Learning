@@ -1,0 +1,9 @@
+Lists all customers with a NULL value in the "Address" field?
+
+Select * from customer
+Where address IS NULL;
+
+Lists all customers with a value in the "Address" field?
+
+Select * from customer
+Where address IS NOT NULL;
