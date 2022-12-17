@@ -1,0 +1,10 @@
+ Selects the first three records from the "Customers" table?
+
+SELECT * FROM Customer
+FETCH FIRST 3 ROWS ONLY; 
+
+Selects the first three records from the "Customers" table, where the country is "Germany"?
+
+Select * from customer
+where country = 'Germany'
+FETCH FIRST 3 ROWS ONLY;
