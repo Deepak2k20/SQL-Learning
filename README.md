@@ -33,7 +33,7 @@ DROP TABLE - deletes a table\
 CREATE INDEX - creates an index (search key)\
 DROP INDEX - deletes an index
 
-I have taken a sample database table Customer whose fields are - CustomerName, ContactName, Address, City, PostalCode, Country.
+I have taken a sample database table Customer whose fields are - CustomerName, ContactName, Address, City, PostalCode, Country. \
 I have taken a sample database table Products which fields are - ProductID,ProductName,SupplierID,CategoryID,Unit,Price.
 
 	
