@@ -1,0 +1,10 @@
+Finds the price of the cheapest product?
+
+Select MIN(Price) as CheapestProduct
+from Products;
+
+Finds the price of the most expensive product?
+
+Select MAX(Price) as MostExpensive
+from Products;
+
