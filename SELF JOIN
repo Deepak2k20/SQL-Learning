@@ -1,0 +1,7 @@
+Select matches customers that are from the same city?
+
+Select A.CustomerName as CustomerName1, B.CustomerName as CustomerName2, A.City
+From Customer A , Customer B
+Where A.CustomerID <> B.CustomerID
+AND A.City = B.City
+Order BY A.City;
