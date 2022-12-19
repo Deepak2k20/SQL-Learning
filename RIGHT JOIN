@@ -1,0 +1,6 @@
+Select all employees, and any orders they might have placed?
+
+Select Orders.orderid, employees.lastname,employees.firstname
+from orders RIGHT JOIN Employees
+ON orders.employeeid = employees.employeeid
+order by orders.orderid;
