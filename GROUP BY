@@ -1,0 +1,19 @@
+Lists the number of customers in each country?
+
+Select Country, COUNT(CustomerID)
+FROM Customer
+GROUP BY Country;
+
+Lists the number of customers in each country, sorted high to low?
+
+Select Country, COUNT(CustomerID)
+FROM Customer
+GROUP BY Country
+ORDER BY COUNT(CustomerID) DESC;  
+
+Lists the number of orders sent by each shipper?
+
+Select Shippers.ShipperName, COUNT(Orders.OrderID) as NumberOfOrders
+FROM Orders LEFT JOIN Shippers
+ON Orders.ShipperID = Shippers.ShipperID
+GROUP BY ShipperName;
