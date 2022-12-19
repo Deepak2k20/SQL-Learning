@@ -1,0 +1,6 @@
+Selects all customers, and all orders?
+
+Select Customer.CustomerName, Orders.OrderID
+FROM Customer FULL OUTER JOIN Orders
+ON Customer.CustomerID = Orders.CustomerID
+Order By Customer.CustomerName;
