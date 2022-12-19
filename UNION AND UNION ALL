@@ -1,0 +1,11 @@
+Select the cities (only distinct values) from both the "Customers" and the "Suppliers" table?
+
+Select City from Customers
+UNION 
+Select City from Suppliers;
+
+Select the cities (duplicate values also) from both the "Customers" and the "Suppliers" table?
+
+Select City from Customers
+UNION ALL
+Select City from Suppliers;
