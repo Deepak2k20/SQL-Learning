@@ -1,0 +1,6 @@
+Select all customers, and any orders they might have?
+
+Select customer.customername, orders.orderid
+from customer LEFT JOIN orders 
+ON customer.customerid = orders.customerid
+order by customer.customername
