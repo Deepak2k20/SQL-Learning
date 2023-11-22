@@ -1,5 +1,3 @@
-'''sql
-
 Selects all fields from "Customers" where country is "Germany" AND city is "Berlin"?
 
 Select * from customer 
@@ -29,8 +27,6 @@ Selects all fields from "Customers" where country is NOT "Germany" and NOT "USA"
 
 Select * from customer
 where country NOT IN('Germany','USA');
-
-'''
 
 
 
